@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&family=Sono&family=Source+Serif+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&display=swap');
+
+:root {
+    --main-bg-color:  #2874f0;
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 80px;
+    padding: 0 50px;
+}
+nav{
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    padding: 0 23px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover{
+    color: #97aac9;
+    font-weight: bolder;
+  }
+
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+}
+h2{
+    font-family: 'Chakra Petch', sans-serif;
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.search input{
+    width: 30vw;
+    height: 36px;
+    border-radius: 3px;
+    margin: 0px 10px 0px 30px ;
+    padding: 0 12px;
+}
+
+.slider{
+    overflow: hidden;
+    margin: auto;
+    width: 90vh;
+    margin-top: 20px;
+    margin-bottom: 0 px;
+    
+}
+
+.card{
+    background-color: rgb(244, 236, 224);
+    max-width: 90vw;
+    margin: 37px auto;
+   
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.card-items{
+   display: inline-flex;
+   justify-content: center;
+   flex-direction: column;
+   min-width: 20vh;
+   margin: 0 5px;
+}
+.discPercent{
+     color: rgb(11, 117, 11);
+}
+
+header{
+    height: 58px;
+    /* border: 2px solid red; */
+    background-color: var(--main-bg-color);
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Sono', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
+
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+}
+footer{
+    height: 12vh;
+    color: white;
+    background-color: var(--main-bg-color);
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Sono', sans-serif;
+    font-family: 'Source Serif Pro', serif;
+}
